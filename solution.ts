@@ -8,7 +8,7 @@ function formatString(input: string, toUpper?: boolean): string {
 function filterByRating(
   items: { title: string; rating: number }[]
 ): { title: string; rating: number }[] {
-  return items.filter((item) => item.rating > 4);
+  return items.filter((item) => item.rating >= 4);
 }
 
 function concatenateArrays<T>(...arrays: T[][]): T[] {
@@ -83,7 +83,7 @@ async function squareAsync(n: number): Promise<number> {
         resolve(n * n);
       }, 1000);
     } else {
-      reject("Error: Negative number not allowed");
+      reject(new Error("Negative number not allowed"));
     }
   });
 }
