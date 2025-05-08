@@ -4,20 +4,20 @@
 
 TypeScript is a tool that helps developers write better and cleaner code. It works on top of JavaScript and gives extra help while coding.
 
-1. Finds Mistakes Early
+1. **Finds Mistakes Early**:
    TypeScript can catch mistakes before the code runs. This saves time and helps avoid bugs.
 
-2. Uses Types for Safety
+2. **Uses Types for Safety**:
    Developers can tell TypeScript what kind of data they expect. This is called a type. Types make sure the wrong kind of data is not used. For example: let name: string = "Alice";
    Now, here name variable must always be a string.
 
-3. Good for Big Projects
+3. **Good for Big Projects**:
    In big teams, many people work on the same codebase. TypeScript helps them understand each other’s code better. It shows the developer what each part of the code is supposed to do.
 
-4. Smarter Suggestions
+4. **Smarter Suggestions**:
    Code editors give hints while typing. With TypeScript, these hints are smarter and more helpful because the editor knows the types. It boasts productivity.
 
-5. Easier to Refactor
+5. **Easier to Refactor**:
    When someone looks at the code after a long time, TypeScript makes it easier to remember how things work. This helps when the code needs to be updated or fixed at later time.
 
 ### What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
